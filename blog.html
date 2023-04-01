@@ -1,0 +1,405 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Blog</title>
+  </head>
+
+  <body>
+      <div id="wrapper"> <!-- start wrapper -->
+
+
+<header class="header header--fill">
+  <div class="container header__container">
+    <a href="/" class="logo header__logo">
+      <svg width="112" height="27" viewBox="0 0 112 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4.14653 26.4991H0.476746V7.86426H4.14653V26.4991Z"/>
+        <path d="M26.6417 26.4986H22.9719V16.8237C22.9719 15.0126 22.4476 13.6305 21.4468 12.6297C20.4936 11.6765 19.1114 11.1999 17.3004 11.1999C15.537 11.1999 14.1549 11.6765 13.154 12.6297C12.1531 13.6305 11.6289 15.0126 11.6289 16.8237V26.4986H7.95911V16.8237C7.95911 14.0118 8.81698 11.7718 10.5327 10.0084C12.2485 8.34029 14.4885 7.48242 17.3004 7.48242C20.1123 7.48242 22.3523 8.34029 24.068 10.0084C25.7838 11.7241 26.6417 14.0118 26.6417 16.8237V26.4986Z"/>
+        <path d="M45.0385 10.6281C45.1815 10.4852 45.2768 10.2945 45.4198 10.1515C46.9449 8.38815 48.9942 7.53027 51.5202 7.53027C54.0938 7.53027 56.0955 8.38815 57.6206 10.1515C59.0981 11.8673 59.8606 14.1073 59.8606 16.8239V26.4988H56.1908V16.8239C56.1908 14.9652 55.7619 13.5354 54.8564 12.5345C54.0462 11.629 52.95 11.1524 51.5202 11.1524C50.0904 11.1524 48.9942 11.629 48.184 12.5345C47.3262 13.5354 46.8972 14.9652 46.8972 16.8239V26.4988H43.1798V16.8239C43.1798 14.9652 42.7508 13.5354 41.893 12.5345C41.0828 11.629 39.9866 11.1524 38.5568 11.1524C37.127 11.1524 36.0308 11.629 35.2206 12.5345C34.3151 13.5354 33.8862 14.9652 33.8862 16.8239V26.4988H30.2164V16.8239C30.2164 14.0596 30.9789 11.8196 32.4564 10.1515C33.9815 8.38815 36.0308 7.53027 38.5568 7.53027C41.0828 7.53027 43.1321 8.38815 44.6572 10.1515C44.8002 10.2945 44.9432 10.4375 45.0385 10.6281Z"/>
+        <path d="M72.2514 11.2001C70.488 11.2001 69.1059 11.6767 68.105 12.6298C67.1042 13.6307 66.5799 15.1558 66.5799 17.1575C66.5799 19.1592 67.1042 20.6843 68.105 21.6852C69.1059 22.686 70.4404 23.1626 72.2514 23.1626C74.0625 23.1626 75.397 22.686 76.3978 21.6852C77.3987 20.6843 77.9229 19.1592 77.9229 17.1575C77.9229 15.1081 77.3987 13.6307 76.3978 12.6298C75.397 11.6767 74.0625 11.2001 72.2514 11.2001ZM65.5314 10.0562C67.2472 8.38815 69.4872 7.53027 72.2991 7.53027C75.111 7.53027 77.351 8.38815 79.0667 10.0562C80.7825 11.772 81.6404 14.155 81.6404 17.2052C81.6404 20.2554 80.7825 22.6384 79.0667 24.3541C77.351 26.0698 75.111 26.8801 72.2991 26.8801C69.4872 26.8801 67.2472 26.0222 65.5314 24.3541C63.8157 22.6384 62.9578 20.2554 62.9578 17.2052C62.9102 14.155 63.768 11.772 65.5314 10.0562Z"/>
+        <path d="M98.3214 7.86426V11.534H91.4108C90.0286 11.534 88.9801 11.7723 88.2652 12.2489C87.7886 12.5826 87.5503 12.9638 87.5503 13.4404C87.5503 14.1077 87.9793 14.5366 88.8371 14.8226C89.3614 15.0132 90.2669 15.1562 91.6491 15.3468C94.0797 15.6328 95.7954 16.014 96.701 16.5383C98.2261 17.3962 98.9886 18.826 98.9886 20.923C98.9886 22.734 98.1784 24.1638 96.6057 25.2123C95.2712 26.0702 93.5554 26.4991 91.4584 26.4991H84.4525V22.8294H91.4584C92.8406 22.8294 93.8891 22.5911 94.604 22.1145C95.0806 21.7809 95.3189 21.3996 95.3189 20.923C95.3189 20.3034 94.8899 19.8268 94.032 19.4932C93.5078 19.3026 92.6023 19.1596 91.2201 18.9689C88.7895 18.683 87.0737 18.3017 86.1682 17.8251C84.6431 16.9672 83.8806 15.5374 83.8806 13.4404C83.8806 11.6294 84.6908 10.1996 86.2635 9.15107C87.598 8.29319 89.3137 7.86426 91.4108 7.86426H98.3214V7.86426Z"/>
+        <path d="M106.09 11.5332V17.157C106.09 18.9681 106.615 20.3502 107.616 21.3034C108.569 22.3043 109.951 22.7809 111.714 22.7809H112.048V26.4506H111.714C108.902 26.4506 106.662 25.5928 104.994 23.877C103.279 22.1613 102.421 19.9213 102.421 17.1094V0.380859H106.09V7.86341H111.905V11.5332H106.09Z"/>
+        <path d="M72.729 19.4929H71.8711C70.8226 19.4929 69.9647 18.635 69.9647 17.5865V16.7286C69.9647 15.6801 70.8226 14.8223 71.8711 14.8223H72.729C73.7775 14.8223 74.6354 15.6801 74.6354 16.7286V17.6342C74.6354 18.6827 73.7775 19.4929 72.729 19.4929Z" fill="#2FC3C2"/>
+        <path d="M2.7166 4.62298H1.90638C0.857872 4.62298 0 3.76511 0 2.7166V1.90638C0 0.857872 0.857872 0 1.90638 0H2.76426C3.81277 0 4.67064 0.857872 4.67064 1.90638V2.76426C4.62298 3.76511 3.76511 4.62298 2.7166 4.62298Z"/>
+      </svg>                
+    </a>
+
+    <div class="nav nav-drop header__nav">
+      <div class="nav-drop__inner">
+        <div class="nav-drop__content">
+          <ul class="nav__list">
+            <li class="submenu">
+              <span class="submenu-title submenu__title">Expertise <i class="icon-arrow-down"></i></span>
+              <div class="submenu__inner">
+                <ul class="submenu-list">
+                  <li><a href="expertise.html">IoT</a></li>
+                  <li><a href="expertise.html">Blockchain</a></li>
+                  <li><a href="expertise.html">Chatbots and voicebots</a></li>
+                  <li><a href="expertise.html">Custom Web & Mobile Development</a></li>
+                  <li><a href="expertise.html">Communication Platform</a></li>
+                </ul>
+              </div>  
+            </li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="cases.html">Case Studies</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="contacts.html">Contact us</a></li>
+          </ul>
+
+          <a href="contact.html" class="btn header__btn">Contact Us</a>
+
+          <ul class="header__social-list">
+            <li>
+              <a href="#" target="_blank">
+                <svg width="32" height="32" viewBox="0 0 32 32">
+                  <use xlink:href="#linkedin" />
+                </svg>                                                                 
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <svg width="32" height="32" viewBox="0 0 32 32">
+                  <use xlink:href="#upwork" />
+                </svg>                             
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <button class="hamburger hamburger--spin header__hamburger hamburger-js">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    
+  </div>
+</header>
+
+<main class="blog">
+	<div class="main-banner main-banner--simple">
+		<div class="container main-banner__container">
+      <div class="main-banner__content">
+        <div class="main-banner__title">
+          <h1 class="banner-title">Blog</h1>
+        </div>
+			  <div class="main-banner__des">Always stay up to date with the latest news in the world of technology together with Inmost</div>
+      </div>
+		</div>
+	</div>
+
+  <div class="container">
+    <div class="article-filter blog__filter">
+      <label class="article-filter__label" for="sort">Filter by:</label>
+      <select name="sort-blog" id="sort"> 
+        <option value="1">All themes</option>
+        <option value="2">News</option>
+        <option value="3">Communication platform</option>
+      </select>
+    </div>
+
+
+    <ul class="blog-list blog__list">
+      <li>
+        <a href="article.html">
+          <article class="article-card @@mod" style="background-image: url('img/blog-article-1.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">The Power of Mobile Apps for Small Businesses</h2>
+
+    
+    
+    <ul class="tag-list">
+      <li>Small business</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+      <li>
+        <a href="article.html">
+          <article class="article-card @@mod" style="background-image: url('img/iot-hero_mob.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">Designing for Accessibility: Best Practices for Mobile Apps</h2>
+
+    
+    
+    <ul class="tag-list">
+      <li>Accessibility</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+      <li>
+        <a href="article.html">
+          <article class="article-card @@mod" style="background-image: url('img/case-img-content.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">Building Better User Experiences for Mobile Apps</h2>
+
+    
+    
+    <ul class="tag-list">
+      <li>User experience</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+      <li>
+        <a href="article.html">
+          <article class="article-card article-card--large" style="background-image: url('img/case-img-video.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">How to learn Data Structures and Algorithms (an ultimate guide for beginners)</h2>
+
+    
+      <div class="article-card__des">
+        <p>GitHub is a great platform that allows developers to share their open-source projects with the world. There are a lot of repositories out there that can help you as a developer by providing great value for you.</p>
+      </div>
+    
+    
+    <ul class="tag-list">
+      <li>Security</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+      <li>
+        <a href="article.html">
+          <article class="article-card @@mod" style="background-image: url('img/article-img-gallery.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">Maximizing Your App's Potential with Push Notifications</h2>
+
+    
+    
+    <ul class="tag-list">
+      <li>Engagement</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+      <li>
+        <a href="article.html">
+          <article class="article-card @@mod" style="background-image: url('img/blog-article-1.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">The Future of Mobile App Development: Trends to Watch</h2>
+
+    
+    
+    <ul class="tag-list">
+      <li>Technology</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+      <li>
+        <a href="article.html">
+          <article class="article-card @@mod" style="background-image: url('img/article-img-content.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">How to Monetize Your Mobile App</h2>
+
+    
+    
+    <ul class="tag-list">
+      <li>Monetization</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+
+      <li>
+        <a href="article.html">
+          <article class="article-card @@mod" style="background-image: url('img/case-img-video.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">The Dos and Don'ts of Mobile App Marketing</h2>
+
+    
+    
+    <ul class="tag-list">
+      <li>Marketing</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+      <li>
+        <a href="article.html">
+          <article class="article-card @@mod" style="background-image: url('img/case-img-content.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">From Idea to Launch: A Mobile App Development Journey</h2>
+
+    
+    
+    <ul class="tag-list">
+      <li>Development</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+      <li>
+        <a href="article.html">
+          <article class="article-card @@mod" style="background-image: url('img/iot-hero_mob.jpg');">
+  <div class="title-card article-card__inner">
+    <header class="title-card__header article-card__header">
+      <!--<span>Project name</span>-->
+      <span>7 min read</span>
+    </header>
+    <h2 class="title-card__title article-card__title">The Benefits of Hybrid Mobile App Development</h2>
+
+    
+    
+    <ul class="tag-list">
+      <li>Mobile app development</li>
+    </ul>
+  </div>
+</article>
+
+        </a>
+      </li>
+    </ul>
+
+
+    <nav class="pagination">
+      <div class="nav-links">
+        <a class="prev page-numbers" href="#"></a>
+        <a class="page-numbers" href="#">1</a>
+        <span aria-current="page" class="page-numbers current">2</span>
+        <a class="page-numbers" href="#">3</a>
+        <span class="page-numbers dots">…</span>
+        <a class="page-numbers" href="#">6</a>
+        <a class="next page-numbers" href="#"></a>
+        </div>
+    </nav>
+  </div>
+
+</main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__links links-footer">
+        <div class="links-footer__item">
+          <a href="/" target="_blank" class="clutch-logo">
+            <img src="img/clutch.svg" alt="Clutch logo.">
+            <span class="clutch-logo__text">2 reviews</span>
+          </a>
+        </div>
+        <div class="links-footer__item">
+          <a href="#" target="_blank" class="techeviewer-logo">
+            <img src="img/techeviewer.svg" alt="techeviewer logo.">
+          </a>
+        </div>
+        <ul class="links-footer__item social-list">
+          <li>
+            <a href="#" target="_blank">
+              <svg width="32" height="32" viewBox="0 0 32 32">
+                <use xlink:href="#linkedin" />
+              </svg>                 
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <svg width="32" height="32" viewBox="0 0 32 32">
+                <use xlink:href="#upwork" />
+              </svg>              
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copy copyright">
+        Inmost 2021, All Rights Reserved
+        <span class="privat-policy-link"><a href="privacy-policy.html">Privacy Policy</a></span>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <div class="page-start-btn" role="button"></div>
+
+  <div class="popup" id="videoReview">
+  <div class="popup__container">
+    <div class="popup__close popup-close"><i class="icon-close"></i></div>
+    <div class="popup__load">
+      <img src="img/load.svg" alt="loading.">
+    </div>
+    <div class="popup-content">
+      
+    </div>
+  </div>
+</div>
+
+
+  <svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <symbol id="linkedin" width="32" height="32" viewBox="0 0 32 32">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM9.49108 11.7649C10.7554 11.7649 11.5428 10.9279 11.5428 9.8818C11.5193 8.8136 10.7554 8 9.51498 8C8.27456 8 7.46362 8.8136 7.46362 9.8818C7.46362 10.9279 8.2506 11.7649 9.46791 11.7649H9.49108ZM11.303 24.1464V13.2519H7.6771V24.1464H11.303ZM24.3821 17.8998L24.3819 24.1464H20.7561V18.3178C20.7561 16.8538 20.2314 15.8548 18.9188 15.8548C17.9171 15.8548 17.3204 16.5283 17.0583 17.1788C16.9625 17.4119 16.9389 17.7367 16.9389 18.0623V24.1467H13.3125C13.3125 24.1467 13.3603 14.2745 13.3125 13.2522H16.9389V14.7953C17.4202 14.0535 18.2821 12.9961 20.2072 12.9961C22.5933 12.9961 24.3821 14.5535 24.3821 17.8998Z"/>
+      </symbol>  
+      <symbol id="upwork" width="32" height="32" viewBox="0 0 32 32">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM18.9058 17.4392C19.6883 18.1091 20.5492 18.5208 21.4675 18.5208C22.0646 18.5201 22.6371 18.269 23.0595 17.8225C23.4819 17.376 23.7197 16.7706 23.7208 16.1389C23.7204 15.5071 23.4829 14.9013 23.0606 14.4546C22.6383 14.0078 22.0656 13.7566 21.4683 13.7562C19.81 13.7562 19.275 15.4461 19.1025 16.4536L19.0958 16.4907L18.9058 17.4392ZM17.0425 15.1939C17.7092 12.7988 19.3517 11.3452 21.4675 11.3452C23.9675 11.3452 26 13.4952 26 16.1398C26 18.7826 23.9675 20.9441 21.4675 20.9441C20.3 20.9441 19.2817 20.5651 18.3958 19.9665L17.385 25H15.0542L16.4483 18.0598C15.7883 17.1853 15.2442 16.1962 14.8033 15.2204V16.2694C14.8033 18.8382 12.8283 20.9441 10.4008 20.9441C7.975 20.9441 6 18.8382 6 16.2694V10H8.28V16.2694C8.28044 16.8645 8.50395 17.4351 8.90151 17.8562C9.29908 18.2772 9.83826 18.5143 10.4008 18.5155C10.9636 18.5146 11.5031 18.2776 11.901 17.8566C12.2989 17.4355 12.5227 16.8647 12.5233 16.2694V10H14.8033C15.2525 11.6361 16.0258 13.5772 17.0425 15.1939Z"/>
+      </symbol> 
+    </defs>
+  </svg>  
+
+</div> <!-- end wrapper -->
+
+<script src="js/main.min.js"></script>
+
+</body>
+</html>
