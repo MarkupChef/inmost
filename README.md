@@ -27,7 +27,7 @@ HTML5, CSS/SCSS, JS, jQuery, BEM, Slick.js, WordPress, Gulp
 
 [Watch Demo](https://markupchef.github.io/inmost/)
 
-[Yastreb.jewelry](hhttp://inmost.com)
+[Inmost](hhttp://inmost.com)
 
 ⚠️The result of my work may be different on the original site, as it can work on the client's developers, who can make changes affecting the functionality, layout and view.
 
